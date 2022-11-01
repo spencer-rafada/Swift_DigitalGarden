@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A0D9B1702910B89B00A225FB /* DigitalGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B16F2910B89B00A225FB /* DigitalGardenApp.swift */; };
-		A0D9B1722910B89B00A225FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B1712910B89B00A225FB /* ContentView.swift */; };
+		A0D9B1722910B89B00A225FB /* MyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B1712910B89B00A225FB /* MyMapView.swift */; };
 		A0D9B1742910B8A000A225FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D9B1732910B8A000A225FB /* Assets.xcassets */; };
 		A0D9B1772910B8A000A225FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D9B1762910B8A000A225FB /* Preview Assets.xcassets */; };
+		A0D9B1802910CA1A00A225FB /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B17F2910CA1A00A225FB /* PlaceAnnotationView.swift */; };
+		A0D9B1822910CF2900A225FB /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B1812910CF2900A225FB /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0D9B16C2910B89B00A225FB /* DigitalGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D9B16F2910B89B00A225FB /* DigitalGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalGardenApp.swift; sourceTree = "<group>"; };
-		A0D9B1712910B89B00A225FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0D9B1712910B89B00A225FB /* MyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapView.swift; sourceTree = "<group>"; };
 		A0D9B1732910B8A000A225FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D9B1762910B8A000A225FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0D9B17F2910CA1A00A225FB /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
+		A0D9B1812910CF2900A225FB /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,8 @@
 		A0D9B16E2910B89B00A225FB /* DigitalGarden */ = {
 			isa = PBXGroup;
 			children = (
+				A0D9B17E2910C9ED00A225FB /* Mapping */,
 				A0D9B16F2910B89B00A225FB /* DigitalGardenApp.swift */,
-				A0D9B1712910B89B00A225FB /* ContentView.swift */,
 				A0D9B1732910B8A000A225FB /* Assets.xcassets */,
 				A0D9B1752910B8A000A225FB /* Preview Content */,
 			);
@@ -65,6 +69,16 @@
 				A0D9B1762910B8A000A225FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0D9B17E2910C9ED00A225FB /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				A0D9B1712910B89B00A225FB /* MyMapView.swift */,
+				A0D9B1812910CF2900A225FB /* LocationDetailsView.swift */,
+				A0D9B17F2910CA1A00A225FB /* PlaceAnnotationView.swift */,
+			);
+			path = Mapping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D9B1722910B89B00A225FB /* ContentView.swift in Sources */,
+				A0D9B1722910B89B00A225FB /* MyMapView.swift in Sources */,
 				A0D9B1702910B89B00A225FB /* DigitalGardenApp.swift in Sources */,
+				A0D9B1822910CF2900A225FB /* LocationDetailsView.swift in Sources */,
+				A0D9B1802910CA1A00A225FB /* PlaceAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

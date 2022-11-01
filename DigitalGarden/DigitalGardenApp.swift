@@ -11,7 +11,7 @@ import SwiftUI
 struct DigitalGardenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MyMapView()
         }
     }
 }
