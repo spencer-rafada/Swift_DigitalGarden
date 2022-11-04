@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct DigitalGardenApp: App {
+    @State private var vm = LocationsViewModel()
     var body: some Scene {
         WindowGroup {
-            MyMapView()
+            LocationsView()
+                .environmentObject(vm)
         }
     }
 }

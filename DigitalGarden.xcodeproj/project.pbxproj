@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06A7E63291357D100CFB975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06A7E62291357D100CFB975 /* Assets.xcassets */; };
+		A06A7E68291358C200CFB975 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A7E67291358C200CFB975 /* Location.swift */; };
+		A06A7E6B291359B800CFB975 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A7E6A291359B800CFB975 /* LocationsDataService.swift */; };
+		A06A7E6D29135A9F00CFB975 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A7E6C29135A9F00CFB975 /* LocationsView.swift */; };
+		A06A7E6F29135DA000CFB975 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A7E6E29135DA000CFB975 /* LocationsViewModel.swift */; };
+		A06A7E722913654A00CFB975 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A7E712913654A00CFB975 /* LocationsListView.swift */; };
 		A0D9B1702910B89B00A225FB /* DigitalGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B16F2910B89B00A225FB /* DigitalGardenApp.swift */; };
 		A0D9B1722910B89B00A225FB /* MyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B1712910B89B00A225FB /* MyMapView.swift */; };
-		A0D9B1742910B8A000A225FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D9B1732910B8A000A225FB /* Assets.xcassets */; };
 		A0D9B1772910B8A000A225FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D9B1762910B8A000A225FB /* Preview Assets.xcassets */; };
 		A0D9B1802910CA1A00A225FB /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B17F2910CA1A00A225FB /* PlaceAnnotationView.swift */; };
 		A0D9B1822910CF2900A225FB /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9B1812910CF2900A225FB /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A06A7E62291357D100CFB975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A06A7E67291358C200CFB975 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A06A7E6A291359B800CFB975 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		A06A7E6C29135A9F00CFB975 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		A06A7E6E29135DA000CFB975 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		A06A7E712913654A00CFB975 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		A0D9B16C2910B89B00A225FB /* DigitalGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D9B16F2910B89B00A225FB /* DigitalGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalGardenApp.swift; sourceTree = "<group>"; };
 		A0D9B1712910B89B00A225FB /* MyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapView.swift; sourceTree = "<group>"; };
-		A0D9B1732910B8A000A225FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D9B1762910B8A000A225FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0D9B17F2910CA1A00A225FB /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
 		A0D9B1812910CF2900A225FB /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
@@ -36,6 +46,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A06A7E642913588400CFB975 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A06A7E6E29135DA000CFB975 /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A06A7E652913589100CFB975 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A06A7E6C29135A9F00CFB975 /* LocationsView.swift */,
+				A06A7E712913654A00CFB975 /* LocationsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A06A7E66291358A000CFB975 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A06A7E67291358C200CFB975 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A06A7E692913599900CFB975 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				A06A7E6A291359B800CFB975 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
 		A0D9B1632910B89B00A225FB = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +100,11 @@
 			children = (
 				A0D9B17E2910C9ED00A225FB /* Mapping */,
 				A0D9B16F2910B89B00A225FB /* DigitalGardenApp.swift */,
-				A0D9B1732910B8A000A225FB /* Assets.xcassets */,
+				A06A7E692913599900CFB975 /* DataServices */,
+				A06A7E652913589100CFB975 /* Views */,
+				A06A7E642913588400CFB975 /* ViewModels */,
+				A06A7E66291358A000CFB975 /* Models */,
+				A06A7E62291357D100CFB975 /* Assets.xcassets */,
 				A0D9B1752910B8A000A225FB /* Preview Content */,
 			);
 			path = DigitalGarden;
@@ -139,8 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06A7E63291357D100CFB975 /* Assets.xcassets in Resources */,
 				A0D9B1772910B8A000A225FB /* Preview Assets.xcassets in Resources */,
-				A0D9B1742910B8A000A225FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +200,11 @@
 			files = (
 				A0D9B1722910B89B00A225FB /* MyMapView.swift in Sources */,
 				A0D9B1702910B89B00A225FB /* DigitalGardenApp.swift in Sources */,
+				A06A7E6B291359B800CFB975 /* LocationsDataService.swift in Sources */,
+				A06A7E722913654A00CFB975 /* LocationsListView.swift in Sources */,
+				A06A7E6F29135DA000CFB975 /* LocationsViewModel.swift in Sources */,
+				A06A7E68291358C200CFB975 /* Location.swift in Sources */,
+				A06A7E6D29135A9F00CFB975 /* LocationsView.swift in Sources */,
 				A0D9B1822910CF2900A225FB /* LocationDetailsView.swift in Sources */,
 				A0D9B1802910CA1A00A225FB /* PlaceAnnotationView.swift in Sources */,
 			);
